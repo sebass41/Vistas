@@ -28,7 +28,9 @@ main {
     text-align: center; 
 } h1 { 
     color: #333; 
-} form { 
+} 
+
+form { 
     background: #fff; 
     padding: 20px; 
     margin: 20px auto; 

@@ -23,6 +23,7 @@
                 <option selected disabled>Seleccione una opción</option>
                 <option value="productos_caros">Productos más caros</option>
                 <option value="menos_stock">Productos con menor Stock</option>
+                <option value="ordenes_clientes">Ordenes</option>
             </select>
             <button type="submit">Mostrar</button>
         </form>
@@ -39,6 +40,22 @@
             <tbody id="tBodyProductos">
 
             </tbody>
+        </table>
+
+        <table id="tablaClientes">
+            <thead>
+                <tr>
+                    <th>Número de Orden</th>
+                    <th>Fecha</th>
+                    <th>Precio Total</th>
+                    <th>ID del Cliente</th>
+                    <th>Nombre</th>
+                    <th>E-mail</th>
+                    <th>Dirección</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody id="tBodyClientes"></tbody>
         </table>
     </main>
 </body>
